@@ -8,8 +8,8 @@ document.addEventListener(
             const [, productId] = itemClicked.id.split("--")
 
             for (const product of products) {
-                if (product.id === parseInt()) {
-                    window.alert(` ${product.na} costs ${product.price} `)
+                if (product.id === parseInt(productId)) {
+                    window.alert(` ${product.name} costs ${product.price} `)
                 }
             }
         }
